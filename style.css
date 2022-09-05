@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(img/border.png);
+    font-size: 0;
+    margin-top: 100px;
+}
+.border
+{
+    font-family: 'Arima', cursive;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+.card:nth-of-type(1)
+{
+    background-image: url(img/0.jpg);
+}
+.card:nth-of-type(2)
+{
+    background-image: url(img/1.jpg);
+}
+.card:nth-of-type(3)
+{
+    background-image: url(img/2.jpg);
+}
+.card:nth-of-type(4)
+{
+    background-image: url(img/3.jpg);
+}
+.card:nth-of-type(5)
+{
+    background-image: url(img/4.jpg);
+}
+.card:nth-of-type(6)
+{
+    background-image: url(img/5.jpg);
+}
+.card
+{
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    vertical-align: top;
+    border: 3px solid black;
+    box-sizing: border-box;
+    position: relative;
+
+    /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.9); */
+}
+.cardInfo{
+    background-color: rgba(0, 0, 0, 0.24);
+    position: absolute;
+    bottom: 0px;
+}
+.card h2{
+    font-size: 20px;
+
+}
+.card h3{
+    font-size: 25px;
+}
+.border{
+    font-size: 30px;
+}
+.cardInfo p{
+    font-size: 20px;
+}
+.card a{
+    font-size: 25px;
+    
+}
